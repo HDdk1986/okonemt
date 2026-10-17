@@ -1,3 +1,4 @@
+# Økonemt: keep private budget exports out of this repository
 # Never commit personal budget exports or credentials
 *.json
 *.csv

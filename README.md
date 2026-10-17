@@ -2,7 +2,7 @@
 
 Dansk, interaktiv budgetprototype, version 47.
 
-Åbn [Økonemt](https://hddk1986.github.io/pengepilot/) i din browser.
+Åbn [Økonemt](https://hddk1986.github.io/okonemt/) i din browser.
 
 ## Data og privatliv
 
@@ -18,7 +18,7 @@ Dansk, interaktiv budgetprototype, version 47.
 
 GitHub Pages: Deploy from a branch → main → /(root). Ingen byggeproces er nødvendig.
 
-Udgivelsen bygger på okonemt_prototype_v47.html (tidligere PengePilot v47). Gamle versionsmærker er rettet, dynamiske budgetnavne vises som tekst, CSV-eksport er sikret mod formler, og der er tilføjet en restriktiv browserpolitik mod eksterne netværkskald. Den eksisterende nøgle til lokal lagring er bevaret.
+Udgivelsen bygger på okonemt_prototype_v47.html. Gamle versionsmærker er rettet, dynamiske budgetnavne vises som tekst, CSV-eksport er sikret mod formler, og der er tilføjet en restriktiv browserpolitik mod eksterne netværkskald. Den eksisterende nøgle til lokal lagring er bevaret.
 
 Hvis JavaScript ændres, skal SHA-256-værdien i sidens Content-Security-Policy opdateres, så den svarer til scriptets præcise indhold.
 
