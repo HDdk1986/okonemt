@@ -1,0 +1,9 @@
+# Never commit personal budget exports or credentials
+*.json
+*.csv
+*.xlsx
+*.zip
+.env
+.env.*
+*.pem
+*.key
