@@ -1,13 +1,13 @@
 # Økonemt
 
-Dansk, interaktiv budgetprototype, version 47.
+Dansk, interaktiv budgetprototype, version 77, til test med familie og venner.
 
 Åbn [Økonemt](https://hddk1986.github.io/okonemt/) i din browser.
 
 ## Data og privatliv
 
 - Beregninger udføres i browseren. Budgetdata gemmes i browserens localStorage på den aktuelle enhed.
-- Ingen bankforbindelse, backend, analyseværktøjer, cookies eller eksterne biblioteker.
+- Ingen bankforbindelse, backend, analyseværktøjer eller eksterne biblioteker.
 - Siden sender ikke indtastede budgetoplysninger til GitHub eller andre tjenester. En browserpolitik blokerer netværkskald og indlejrede eksterne ressourcer.
 - GitHub Pages leverer selve siden og kan registrere almindelige besøgsoplysninger, herunder IP-adresser. Se [GitHubs privatlivspolitik](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 - JSON-sikkerhedskopier og CSV-filer indeholder brugerens egne oplysninger og skal opbevares privat. De skal aldrig uploades til dette repository.
@@ -18,7 +18,7 @@ Dansk, interaktiv budgetprototype, version 47.
 
 GitHub Pages: Deploy from a branch → main → /(root). Ingen byggeproces er nødvendig.
 
-Udgivelsen bygger på okonemt_prototype_v47.html. Gamle versionsmærker er rettet, dynamiske budgetnavne vises som tekst, CSV-eksport er sikret mod formler, og der er tilføjet en restriktiv browserpolitik mod eksterne netværkskald. Den eksisterende nøgle til lokal lagring er bevaret.
+Udgivelsen bygger på okonemt_prototype_v77.html. Sidetitel og versionsmærke er opdateret til 77, og en restriktiv browserpolitik er tilføjet. Appens JavaScript og eksisterende lagringsnøgler er bevaret.
 
 Hvis JavaScript ændres, skal SHA-256-værdien i sidens Content-Security-Policy opdateres, så den svarer til scriptets præcise indhold.
 
