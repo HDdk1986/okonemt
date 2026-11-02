@@ -1,6 +1,6 @@
 # Økonemt
 
-Dansk, interaktiv budgetprototype, version 119, til test med familie og venner.
+Dansk, interaktiv budgetprototype, version 120, til test med familie og venner.
 
 Åbn [Økonemt](https://hddk1986.github.io/okonemt/) i din browser.
 
@@ -18,11 +18,12 @@ Dansk, interaktiv budgetprototype, version 119, til test med familie og venner.
 
 GitHub Pages: Deploy from a branch → main → /(root). Ingen byggeproces er nødvendig.
 
-Udgivelsen bygger på okonemt_web_v119.zip. Appens ikoner og webmanifest følger med. En restriktiv browserpolitik tillader de lokale ikoner og manifestet og blokerer netværkskald. Appens JavaScript og eksisterende lagringsnøgler er bevaret.
+Udgivelsen bygger på okonemt_prototype_v120.html. Appens indlejrede ikoner er bevaret. En restriktiv browserpolitik tillader ikoner og blokerer netværkskald. Appens JavaScript og eksisterende lagringsnøgler er bevaret.
 
 Hvis JavaScript ændres, skal SHA-256-værdien i sidens Content-Security-Policy opdateres, så den svarer til scriptets præcise indhold.
 
 Standardbeløb og beregninger er illustrative. Kontrollér egne tal og antagelser.
+
 
 
 
