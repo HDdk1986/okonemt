@@ -1,6 +1,6 @@
 # Økonemt
 
-Dansk, interaktiv budgetprototype, version 118, til test med familie og venner.
+Dansk, interaktiv budgetprototype, version 119, til test med familie og venner.
 
 Åbn [Økonemt](https://hddk1986.github.io/okonemt/) i din browser.
 
@@ -8,7 +8,7 @@ Dansk, interaktiv budgetprototype, version 118, til test med familie og venner.
 
 - Beregninger udføres i browseren. Budgetdata gemmes i browserens localStorage på den aktuelle enhed.
 - Ingen bankforbindelse, backend, analyseværktøjer eller eksterne biblioteker.
-- Siden sender ikke indtastede budgetoplysninger til GitHub eller andre tjenester. En browserpolitik blokerer netværkskald og indlejrede eksterne ressourcer.
+- Siden sender ikke indtastede budgetoplysninger til GitHub eller andre tjenester. En browserpolitik blokerer netværkskald. Lokale appikoner og webmanifest er tilladt.
 - GitHub Pages leverer selve siden og kan registrere almindelige besøgsoplysninger, herunder IP-adresser. Se [GitHubs privatlivspolitik](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 - JSON-sikkerhedskopier og CSV-filer indeholder brugerens egne oplysninger og skal opbevares privat. De skal aldrig uploades til dette repository.
 - Lokale browserdata er ikke krypteret af appen. Andre med adgang til samme browserprofil kan få adgang til budgettet.
@@ -18,11 +18,12 @@ Dansk, interaktiv budgetprototype, version 118, til test med familie og venner.
 
 GitHub Pages: Deploy from a branch → main → /(root). Ingen byggeproces er nødvendig.
 
-Udgivelsen bygger på okonemt_prototype_v118.html. Sidetitel og versionsmærke er opdateret til 118, og en restriktiv browserpolitik er tilføjet. Appens JavaScript og eksisterende lagringsnøgler er bevaret.
+Udgivelsen bygger på okonemt_web_v119.zip. Appens ikoner og webmanifest følger med. En restriktiv browserpolitik tillader de lokale ikoner og manifestet og blokerer netværkskald. Appens JavaScript og eksisterende lagringsnøgler er bevaret.
 
 Hvis JavaScript ændres, skal SHA-256-værdien i sidens Content-Security-Policy opdateres, så den svarer til scriptets præcise indhold.
 
 Standardbeløb og beregninger er illustrative. Kontrollér egne tal og antagelser.
+
 
 
 
