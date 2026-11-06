@@ -1,8 +1,8 @@
-# Økonemt
+# ØkoKompas
 
-Dansk, interaktiv budgetprototype, version 125, til test med familie og venner.
+Dansk, interaktiv budgetprototype, version 138, til test med familie og venner.
 
-Åbn [Økonemt](https://hddk1986.github.io/okonemt/) i din browser.
+Åbn [ØkoKompas](https://hddk1986.github.io/okonemt/) i din browser.
 
 ## Data og privatliv
 
@@ -18,11 +18,14 @@ Dansk, interaktiv budgetprototype, version 125, til test med familie og venner.
 
 GitHub Pages: Deploy from a branch → main → /(root). Ingen byggeproces er nødvendig.
 
-Udgivelsen bygger på okonemt_prototype_v125.html. Appens indlejrede ikoner er bevaret. En restriktiv browserpolitik tillader ikoner og blokerer netværkskald. Appens JavaScript og eksisterende lagringsnøgler er bevaret.
+Udgivelsen bygger på okokompas_prototype_v138.html. Appens indlejrede ikoner er bevaret. En restriktiv browserpolitik tillader ikoner og blokerer netværkskald. Appens JavaScript og eksisterende lagringsnøgler er bevaret.
 
 Hvis JavaScript ændres, skal SHA-256-værdien i sidens Content-Security-Policy opdateres, så den svarer til scriptets præcise indhold.
 
 Standardbeløb og beregninger er illustrative. Kontrollér egne tal og antagelser.
+
+Den lokale sw.js understøtter registreringen i appens installationsflow. Den gemmer ingen filer, læser ingen budgetdata og giver ikke offlinefunktion. Testadressen er fortsat /okonemt/.
+
 
 
 
